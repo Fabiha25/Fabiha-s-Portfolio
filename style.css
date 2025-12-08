@@ -92,21 +92,18 @@ footer {
 }
 
 .photo-row {
-  margin: 35px auto 50px;
-  max-width: 1100px;
-  display: flex;
-  justify-content: center;
-  gap: 22px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 40px 0;
 }
-
 .photo-row img {
-  width: 24%;
-  height: 280px;
-  object-fit: cover;
-  border-radius: 8px;
-  border: 2px solid var(--border);
+    width: 280px;     
+    height: 300px;     
+    object-fit: cover; 
+    border-radius: 8px;
+    border: 2px solid #d9b8a3;
 }
-
 .menu-layout {
   display: flex;
   gap: 40px;
@@ -215,17 +212,42 @@ footer {
   align-items: center;
   gap: 16px;
 }
-
-.profile-pic {
-  width: 90px;
-  height: 90px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 2px solid var(--border);
+.about-layout {
+    max-width: 1200px;
+    margin: 60px auto;
+    display: flex;
+    align-items: flex-start;
+    gap: 60px;
+}
+.about-images {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.about-image {
+    width: 260px;
+    height: 440px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #d7b7a2;
+}
+.about-text {
+    flex: 1;
+    max-width: 600px;
 }
 
-.contact-content h1 {
-  margin: 0;
+.about-round {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #d7b7a2;
+    margin-bottom: 20px;
+}
+
+.about-text h1,
+.about-text h2 {
+    color: #5d3b2e;
 }
 
 .contact-content h2 {
